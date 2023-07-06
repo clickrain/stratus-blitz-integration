@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c9599724f776a4a5beb283ff320b1e9f",
+    "content-hash": "0756456abacda2e69872a480e7f1e589",
     "packages": [
         {
             "name": "amphp/amp",
@@ -1089,12 +1089,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/clickrain/stratus.git",
-                "reference": "e2c719ac5e8f611f9cd9a4d8e35c6659fc7efa95"
+                "reference": "b7597d2b42daeb475b7fc6b7077a8537a0fbc5bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/clickrain/stratus/zipball/e2c719ac5e8f611f9cd9a4d8e35c6659fc7efa95",
-                "reference": "e2c719ac5e8f611f9cd9a4d8e35c6659fc7efa95",
+                "url": "https://api.github.com/repos/clickrain/stratus/zipball/b7597d2b42daeb475b7fc6b7077a8537a0fbc5bf",
+                "reference": "b7597d2b42daeb475b7fc6b7077a8537a0fbc5bf",
                 "shasum": ""
             },
             "require": {
@@ -1138,7 +1138,7 @@
                 "issues": "https://github.com/clickrain/stratus/issues",
                 "source": "https://github.com/clickrain/stratus/tree/1.0.0"
             },
-            "time": "2023-07-05T20:51:48+00:00"
+            "time": "2023-07-06T19:17:11+00:00"
         },
         {
             "name": "commerceguys/addressing",
@@ -8264,7 +8264,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "clickrain/stratus": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

@@ -23,6 +23,6 @@
     "require": {
         "craftcms/cms": "^4.0.0",
         "putyourlightson/craft-blitz": "^4.4",
-        "clickrain/stratus": "^1.0"
+        "clickrain/stratus": "^1.0.0@dev"
     }
 }
