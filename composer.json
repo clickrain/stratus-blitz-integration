@@ -1,0 +1,28 @@
+{
+    "name": "clickrain/stratus-blitz-integration",
+    "description": "Stratus integration for Blitz Plugin for Craft CMS",
+    "type": "craft-module",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "clickrain\\stratus\\blitz\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Click Rain, Inc.",
+            "email": "craft-plugins@clickrain.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true,
+            "craftcms/plugin-installer": true
+        }
+    },
+    "require": {
+        "craftcms/cms": "^4.0.0",
+        "putyourlightson/craft-blitz": "^4.4",
+        "clickrain/stratus": "^1.0"
+    }
+}
